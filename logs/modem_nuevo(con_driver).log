@@ -1,0 +1,487 @@
+root@orangepipcplus:~# udevadm monitor --env
+monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+^Croot@orangepipcplus:~# insmod /usr/src/sim7600_2016/GobiSerial.ko
+root@orangepipcplus:~# udevadm monitor --env
+monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+KERNEL[1445.064349] add      /devices/platform/sunxi-ehci.2/usb2/2-1 (usb)
+ACTION=add
+BUSNUM=002
+DEVNAME=/dev/bus/usb/002/004
+DEVNUM=004
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1
+DEVTYPE=usb_device
+MAJOR=189
+MINOR=131
+PRODUCT=1e0e/9001/318
+SEQNUM=1789
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[1445.064837] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1790
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[1445.065755] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0
+SEQNUM=1791
+SUBSYSTEM=usb-serial
+
+KERNEL[1445.067351] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0/tty/ttyUSB0
+MAJOR=188
+MINOR=0
+SEQNUM=1792
+SUBSYSTEM=tty
+
+KERNEL[1445.067748] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1793
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[1445.068251] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1
+SEQNUM=1794
+SUBSYSTEM=usb-serial
+
+KERNEL[1445.068646] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1/tty/ttyUSB1
+MAJOR=188
+MINOR=1
+SEQNUM=1795
+SUBSYSTEM=tty
+
+KERNEL[1445.068938] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1796
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[1445.070285] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2
+SEQNUM=1797
+SUBSYSTEM=usb-serial
+
+KERNEL[1445.070874] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2/tty/ttyUSB2
+MAJOR=188
+MINOR=2
+SEQNUM=1798
+SUBSYSTEM=tty
+
+KERNEL[1445.071431] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1799
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[1445.072988] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3
+SEQNUM=1800
+SUBSYSTEM=usb-serial
+
+KERNEL[1445.073336] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3/tty/ttyUSB3
+MAJOR=188
+MINOR=3
+SEQNUM=1801
+SUBSYSTEM=tty
+
+KERNEL[1445.073615] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1802
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[1445.074976] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4
+SEQNUM=1803
+SUBSYSTEM=usb-serial
+
+KERNEL[1445.075321] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4/tty/ttyUSB4
+MAJOR=188
+MINOR=4
+SEQNUM=1804
+SUBSYSTEM=tty
+
+KERNEL[1445.405866] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1805
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+UDEV  [1445.406646] add      /devices/platform/sunxi-ehci.2/usb2/2-1 (usb)
+ACTION=add
+BUSNUM=002
+DEVNAME=/dev/bus/usb/002/004
+DEVNUM=004
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1
+DEVTYPE=usb_device
+DRIVER=usb
+ID_BUS=usb
+ID_MODEL=SimTech__Incorporated
+ID_MODEL_ENC=SimTech\x2c\x20Incorporated
+ID_MODEL_ID=9001
+ID_REVISION=0318
+ID_SERIAL=SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF
+ID_SERIAL_SHORT=0123456789ABCDEF
+ID_USB_INTERFACES=:ffffff:ff0000:
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+ID_VENDOR_ID=1e0e
+MAJOR=189
+MINOR=131
+PRODUCT=1e0e/9001/318
+SEQNUM=1789
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=1445083392
+
+KERNEL[1445.407108] add      /devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.4 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev2.4
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.4
+MAJOR=189
+MINOR=131
+SEQNUM=1806
+SUBSYSTEM=usb_device
+
+UDEV  [1445.407371] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0
+DEVTYPE=usb_interface
+DRIVER=GobiSerial
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1790
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=1445088355
+
+UDEV  [1445.407663] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1
+DEVTYPE=usb_interface
+DRIVER=GobiSerial
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1793
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=1445091326
+
+UDEV  [1445.407845] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0
+DRIVER=GobiSerial driver
+SEQNUM=1791
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=1445093460
+
+UDEV  [1445.407973] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1
+DRIVER=GobiSerial driver
+SEQNUM=1794
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=1445097336
+
+UDEV  [1445.408222] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4
+DEVTYPE=usb_interface
+DRIVER=GobiSerial
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1802
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=1445098229
+
+UDEV  [1445.408493] add      /devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.4 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev2.4
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.4
+MAJOR=189
+MINOR=131
+SEQNUM=1806
+SUBSYSTEM=usb_device
+USEC_INITIALIZED=1445083392
+
+UDEV  [1445.408754] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2
+DEVTYPE=usb_interface
+DRIVER=GobiSerial
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1796
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=1445100969
+
+UDEV  [1445.409041] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3
+DEVTYPE=usb_interface
+DRIVER=GobiSerial
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1799
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=1445103240
+
+UDEV  [1445.741292] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2
+DRIVER=GobiSerial driver
+SEQNUM=1797
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=1445104669
+
+UDEV  [1445.741667] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5
+DEVTYPE=usb_interface
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1805
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=1445107126
+
+UDEV  [1445.742487] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ehci.2-usb-0:1:1.1-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF-if01-port0
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1/ttyUSB1/tty/ttyUSB1
+ID_BUS=usb
+ID_MODEL=SimTech__Incorporated
+ID_MODEL_ENC=SimTech\x2c\x20Incorporated
+ID_MODEL_ID=9001
+ID_PATH=platform-sunxi-ehci.2-usb-0:1:1.1
+ID_PATH_TAG=platform-sunxi-ehci_2-usb-0_1_1_1
+ID_REVISION=0318
+ID_SERIAL=SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF
+ID_SERIAL_SHORT=0123456789ABCDEF
+ID_TYPE=generic
+ID_USB_DRIVER=GobiSerial
+ID_USB_INTERFACES=:ffffff:ff0000:
+ID_USB_INTERFACE_NUM=01
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+ID_VENDOR_ID=1e0e
+MAJOR=188
+MINOR=1
+SEQNUM=1795
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=1445108582
+
+UDEV  [1445.742952] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3
+DRIVER=GobiSerial driver
+SEQNUM=1800
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=1445110578
+
+UDEV  [1445.743641] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ehci.2-usb-0:1:1.0-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF-if00-port0
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0/ttyUSB0/tty/ttyUSB0
+ID_BUS=usb
+ID_MODEL=SimTech__Incorporated
+ID_MODEL_ENC=SimTech\x2c\x20Incorporated
+ID_MODEL_ID=9001
+ID_PATH=platform-sunxi-ehci.2-usb-0:1:1.0
+ID_PATH_TAG=platform-sunxi-ehci_2-usb-0_1_1_0
+ID_REVISION=0318
+ID_SERIAL=SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF
+ID_SERIAL_SHORT=0123456789ABCDEF
+ID_TYPE=generic
+ID_USB_DRIVER=GobiSerial
+ID_USB_INTERFACES=:ffffff:ff0000:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+ID_VENDOR_ID=1e0e
+MAJOR=188
+MINOR=0
+SEQNUM=1792
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=1445116200
+
+UDEV  [1445.744101] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4
+DRIVER=GobiSerial driver
+SEQNUM=1803
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=1445119040
+
+UDEV  [1445.744775] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ehci.2-usb-0:1:1.2-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF-if02-port0
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2/ttyUSB2/tty/ttyUSB2
+ID_BUS=usb
+ID_MODEL=SimTech__Incorporated
+ID_MODEL_ENC=SimTech\x2c\x20Incorporated
+ID_MODEL_ID=9001
+ID_PATH=platform-sunxi-ehci.2-usb-0:1:1.2
+ID_PATH_TAG=platform-sunxi-ehci_2-usb-0_1_1_2
+ID_REVISION=0318
+ID_SERIAL=SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF
+ID_SERIAL_SHORT=0123456789ABCDEF
+ID_TYPE=generic
+ID_USB_DRIVER=GobiSerial
+ID_USB_INTERFACES=:ffffff:ff0000:
+ID_USB_INTERFACE_NUM=02
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+ID_VENDOR_ID=1e0e
+MAJOR=188
+MINOR=2
+SEQNUM=1798
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=1445124369
+
+UDEV  [1446.078831] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-id/usb-SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF-if03-port0 /dev/serial/by-path/platform-sunxi-ehci.2-usb-0:1:1.3-port0
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3/ttyUSB3/tty/ttyUSB3
+ID_BUS=usb
+ID_MODEL=SimTech__Incorporated
+ID_MODEL_ENC=SimTech\x2c\x20Incorporated
+ID_MODEL_ID=9001
+ID_PATH=platform-sunxi-ehci.2-usb-0:1:1.3
+ID_PATH_TAG=platform-sunxi-ehci_2-usb-0_1_1_3
+ID_REVISION=0318
+ID_SERIAL=SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF
+ID_SERIAL_SHORT=0123456789ABCDEF
+ID_TYPE=generic
+ID_USB_DRIVER=GobiSerial
+ID_USB_INTERFACES=:ffffff:ff0000:
+ID_USB_INTERFACE_NUM=03
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+ID_VENDOR_ID=1e0e
+MAJOR=188
+MINOR=3
+SEQNUM=1801
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=1445126078
+
+UDEV  [1446.081362] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ehci.2-usb-0:1:1.4-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF-if04-port0
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4/ttyUSB4/tty/ttyUSB4
+ID_BUS=usb
+ID_MODEL=SimTech__Incorporated
+ID_MODEL_ENC=SimTech\x2c\x20Incorporated
+ID_MODEL_ID=9001
+ID_PATH=platform-sunxi-ehci.2-usb-0:1:1.4
+ID_PATH_TAG=platform-sunxi-ehci_2-usb-0_1_1_4
+ID_REVISION=0318
+ID_SERIAL=SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF
+ID_SERIAL_SHORT=0123456789ABCDEF
+ID_TYPE=generic
+ID_USB_DRIVER=GobiSerial
+ID_USB_INTERFACES=:ffffff:ff0000:
+ID_USB_INTERFACE_NUM=04
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+ID_VENDOR_ID=1e0e
+MAJOR=188
+MINOR=4
+SEQNUM=1804
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=1445131828
+
+

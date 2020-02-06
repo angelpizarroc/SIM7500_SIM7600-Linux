@@ -1,0 +1,1504 @@
+root@orangepipcplus:~# udevadm monitor --env
+monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+KERNEL[125.350431] add      /devices/platform/sunxi-ohci.2/usb6/6-1 (usb)
+ACTION=add
+BUSNUM=006
+DEVNAME=/dev/bus/usb/006/002
+DEVNUM=002
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1
+DEVTYPE=usb_device
+MAJOR=189
+MINOR=641
+PRODUCT=5c6/9000/0
+SEQNUM=1687
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[125.357509] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1688
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[125.357841] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1689
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[125.358109] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1690
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[125.358338] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1691
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[125.358563] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1692
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[125.359040] add      /devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev6.2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2
+MAJOR=189
+MINOR=641
+SEQNUM=1693
+SUBSYSTEM=usb_device
+
+UDEV  [125.375193] add      /devices/platform/sunxi-ohci.2/usb6/6-1 (usb)
+ACTION=add
+BUSNUM=006
+DEVNAME=/dev/bus/usb/006/002
+DEVNUM=002
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1
+DEVTYPE=usb_device
+DRIVER=usb
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_USB_INTERFACES=:ffffff:
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=189
+MINOR=641
+PRODUCT=5c6/9000/0
+SEQNUM=1687
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125374150
+
+KERNEL[125.387433] add      /module/usbserial (module)
+ACTION=add
+DEVPATH=/module/usbserial
+SEQNUM=1694
+SUBSYSTEM=module
+
+UDEV  [125.388185] add      /devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev6.2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2
+MAJOR=189
+MINOR=641
+SEQNUM=1693
+SUBSYSTEM=usb_device
+USEC_INITIALIZED=125374150
+
+KERNEL[125.388937] add      /bus/usb-serial (bus)
+ACTION=add
+DEVPATH=/bus/usb-serial
+SEQNUM=1695
+SUBSYSTEM=bus
+
+KERNEL[125.389105] add      /bus/usb/drivers/usbserial (drivers)
+ACTION=add
+DEVPATH=/bus/usb/drivers/usbserial
+SEQNUM=1696
+SUBSYSTEM=drivers
+
+KERNEL[125.389287] add      /bus/usb/drivers/usbserial_generic (drivers)
+ACTION=add
+DEVPATH=/bus/usb/drivers/usbserial_generic
+SEQNUM=1697
+SUBSYSTEM=drivers
+
+KERNEL[125.389430] add      /bus/usb-serial/drivers/generic (drivers)
+ACTION=add
+DEVPATH=/bus/usb-serial/drivers/generic
+SEQNUM=1698
+SUBSYSTEM=drivers
+
+KERNEL[125.391707] add      /module/usb_wwan (module)
+ACTION=add
+DEVPATH=/module/usb_wwan
+SEQNUM=1699
+SUBSYSTEM=module
+
+KERNEL[125.396973] add      /module/option (module)
+ACTION=add
+DEVPATH=/module/option
+SEQNUM=1700
+SUBSYSTEM=module
+
+KERNEL[125.397410] add      /bus/usb/drivers/option (drivers)
+ACTION=add
+DEVPATH=/bus/usb/drivers/option
+SEQNUM=1701
+SUBSYSTEM=drivers
+
+KERNEL[125.397814] add      /bus/usb-serial/drivers/option1 (drivers)
+ACTION=add
+DEVPATH=/bus/usb-serial/drivers/option1
+SEQNUM=1702
+SUBSYSTEM=drivers
+
+KERNEL[125.398887] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0
+SEQNUM=1703
+SUBSYSTEM=usb-serial
+
+UDEV  [125.399217] add      /bus/usb-serial (bus)
+ACTION=add
+DEVPATH=/bus/usb-serial
+SEQNUM=1695
+SUBSYSTEM=bus
+USEC_INITIALIZED=125398982
+
+UDEV  [125.730630] add      /module/option (module)
+ACTION=add
+DEVPATH=/module/option
+SEQNUM=1700
+SUBSYSTEM=module
+USEC_INITIALIZED=125401018
+
+KERNEL[125.730969] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0
+MAJOR=188
+MINOR=0
+SEQNUM=1704
+SUBSYSTEM=tty
+
+UDEV  [125.731134] add      /bus/usb/drivers/usbserial_generic (drivers)
+ACTION=add
+DEVPATH=/bus/usb/drivers/usbserial_generic
+SEQNUM=1697
+SUBSYSTEM=drivers
+USEC_INITIALIZED=125401976
+
+KERNEL[125.731245] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1
+SEQNUM=1705
+SUBSYSTEM=usb-serial
+
+UDEV  [125.731354] add      /bus/usb/drivers/option (drivers)
+ACTION=add
+DEVPATH=/bus/usb/drivers/option
+SEQNUM=1701
+SUBSYSTEM=drivers
+USEC_INITIALIZED=125404151
+
+KERNEL[125.731572] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1
+MAJOR=188
+MINOR=1
+SEQNUM=1706
+SUBSYSTEM=tty
+
+UDEV  [125.731839] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1690
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125383015
+
+KERNEL[125.732010] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2
+SEQNUM=1707
+SUBSYSTEM=usb-serial
+
+UDEV  [125.732117] add      /bus/usb/drivers/usbserial (drivers)
+ACTION=add
+DEVPATH=/bus/usb/drivers/usbserial
+SEQNUM=1696
+SUBSYSTEM=drivers
+USEC_INITIALIZED=125406653
+
+KERNEL[125.732325] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2
+MAJOR=188
+MINOR=2
+SEQNUM=1708
+SUBSYSTEM=tty
+
+UDEV  [125.732477] add      /module/usb_wwan (module)
+ACTION=add
+DEVPATH=/module/usb_wwan
+SEQNUM=1699
+SUBSYSTEM=module
+USEC_INITIALIZED=125407412
+
+KERNEL[125.732582] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3
+SEQNUM=1709
+SUBSYSTEM=usb-serial
+
+UDEV  [125.732689] add      /bus/usb-serial/drivers/generic (drivers)
+ACTION=add
+DEVPATH=/bus/usb-serial/drivers/generic
+SEQNUM=1698
+SUBSYSTEM=drivers
+USEC_INITIALIZED=125407940
+
+KERNEL[125.732893] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3
+MAJOR=188
+MINOR=3
+SEQNUM=1710
+SUBSYSTEM=tty
+
+UDEV  [125.733032] add      /bus/usb-serial/drivers/option1 (drivers)
+ACTION=add
+DEVPATH=/bus/usb-serial/drivers/option1
+SEQNUM=1702
+SUBSYSTEM=drivers
+USEC_INITIALIZED=125408555
+
+KERNEL[125.733153] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4
+SEQNUM=1711
+SUBSYSTEM=usb-serial
+
+UDEV  [125.733384] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1689
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125381361
+
+KERNEL[126.066351] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4
+MAJOR=188
+MINOR=4
+SEQNUM=1712
+SUBSYSTEM=tty
+
+UDEV  [126.066545] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2
+DRIVER=option1
+SEQNUM=1707
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125410728
+
+KERNEL[126.066780] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+ACTION=remove
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0
+MAJOR=188
+MINOR=0
+SEQNUM=1713
+SUBSYSTEM=tty
+
+UDEV  [126.066926] add      /module/usbserial (module)
+ACTION=add
+DEVPATH=/module/usbserial
+SEQNUM=1694
+SUBSYSTEM=module
+USEC_INITIALIZED=125412285
+
+KERNEL[126.067037] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0
+SEQNUM=1714
+SUBSYSTEM=usb-serial
+
+UDEV  [126.067153] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1
+DRIVER=option1
+SEQNUM=1705
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125413469
+
+KERNEL[126.067388] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1715
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+UDEV  [126.068020] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.2-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if02-port0
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.2
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_2
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=02
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=2
+SEQNUM=1708
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125418052
+
+KERNEL[126.068469] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+ACTION=remove
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1
+MAJOR=188
+MINOR=1
+SEQNUM=1716
+SUBSYSTEM=tty
+
+UDEV  [126.069050] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.1-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if01-port0
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.1
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_1
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=01
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=1
+SEQNUM=1706
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125420452
+
+KERNEL[126.401785] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1
+SEQNUM=1717
+SUBSYSTEM=usb-serial
+
+UDEV  [126.402119] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1691
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125394753
+
+KERNEL[126.402423] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1718
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+UDEV  [126.402592] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3
+DRIVER=option1
+SEQNUM=1709
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125432998
+
+KERNEL[126.402820] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+ACTION=remove
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2
+MAJOR=188
+MINOR=2
+SEQNUM=1719
+SUBSYSTEM=tty
+
+UDEV  [126.403393] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if03-port0 /dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.3-port0
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.3
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_3
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=03
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=3
+SEQNUM=1710
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125438744
+
+KERNEL[126.403738] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2
+SEQNUM=1720
+SUBSYSTEM=usb-serial
+
+UDEV  [126.403973] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1688
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125378951
+
+KERNEL[126.404252] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1721
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+UDEV  [126.404538] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1692
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125388761
+
+KERNEL[126.737496] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+ACTION=remove
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3
+MAJOR=188
+MINOR=3
+SEQNUM=1722
+SUBSYSTEM=tty
+
+UDEV  [126.737693] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4
+DRIVER=option1
+SEQNUM=1711
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125446506
+
+KERNEL[126.737817] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3
+SEQNUM=1723
+SUBSYSTEM=usb-serial
+
+UDEV  [126.737934] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0
+DRIVER=option1
+SEQNUM=1703
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125446506
+
+KERNEL[126.738175] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1724
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+UDEV  [126.738761] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.4-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if04-port0
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.4
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_4
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=04
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=4
+SEQNUM=1712
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125452226
+
+KERNEL[126.739204] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+ACTION=remove
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4
+MAJOR=188
+MINOR=4
+SEQNUM=1725
+SUBSYSTEM=tty
+
+UDEV  [126.739760] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if00-port0 /dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.0-port0
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.0
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_0
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=0
+SEQNUM=1704
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125452228
+
+KERNEL[126.740190] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4
+SEQNUM=1726
+SUBSYSTEM=usb-serial
+
+UDEV  [127.073391] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+ACTION=remove
+DEVLINKS=/dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if00-port0 /dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.0-port0
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.0
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_0
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=0
+SEQNUM=1713
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125452228
+
+KERNEL[127.073874] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1727
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+UDEV  [127.074452] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+ACTION=remove
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.1-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if01-port0
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.1
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_1
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=01
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=1
+SEQNUM=1716
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125420452
+
+KERNEL[127.074890] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2 (usb_device)
+ACTION=remove
+DEVNAME=/dev/usbdev6.2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2
+MAJOR=189
+MINOR=641
+SEQNUM=1728
+SUBSYSTEM=usb_device
+
+UDEV  [127.075033] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0
+SEQNUM=1714
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125834562
+
+KERNEL[127.075267] remove   /devices/platform/sunxi-ohci.2/usb6/6-1 (usb)
+ACTION=remove
+BUSNUM=006
+DEVNAME=/dev/bus/usb/006/002
+DEVNUM=002
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1
+DEVTYPE=usb_device
+MAJOR=189
+MINOR=641
+PRODUCT=5c6/9000/0
+SEQNUM=1729
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+UDEV  [127.075458] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1
+SEQNUM=1717
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125837170
+
+UDEV  [127.075983] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+ACTION=remove
+DEVLINKS=/dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if03-port0 /dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.3-port0
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.3
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_3
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=03
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=3
+SEQNUM=1722
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125438744
+
+UDEV  [127.409044] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+ACTION=remove
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.4-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if04-port0
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.4
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_4
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=04
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=4
+SEQNUM=1725
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125452226
+
+UDEV  [127.409861] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+ACTION=remove
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.2-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if02-port0
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.2
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_2
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=02
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=2
+SEQNUM=1719
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=125418052
+
+UDEV  [127.410383] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1718
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125381361
+
+UDEV  [127.410692] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1715
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125378951
+
+UDEV  [127.410873] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2
+SEQNUM=1720
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125841074
+
+UDEV  [127.411002] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3
+SEQNUM=1723
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125843610
+
+UDEV  [127.411287] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2 (usb_device)
+ACTION=remove
+DEVNAME=/dev/usbdev6.2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.2
+MAJOR=189
+MINOR=641
+SEQNUM=1728
+SUBSYSTEM=usb_device
+USEC_INITIALIZED=125852122
+
+UDEV  [127.744235] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1721
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125383015
+
+UDEV  [127.744447] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4 (usb-serial)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4
+SEQNUM=1726
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=125851217
+
+UDEV  [127.744703] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1727
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125388761
+
+UDEV  [127.745082] remove   /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3 (usb)
+ACTION=remove
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3
+DEVTYPE=usb_interface
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1724
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125394753
+
+UDEV  [127.745500] remove   /devices/platform/sunxi-ohci.2/usb6/6-1 (usb)
+ACTION=remove
+BUSNUM=006
+DEVNAME=/dev/bus/usb/006/002
+DEVNUM=002
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1
+DEVTYPE=usb_device
+MAJOR=189
+MINOR=641
+PRODUCT=5c6/9000/0
+SEQNUM=1729
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=125861667
+
+KERNEL[134.597890] add      /devices/platform/sunxi-ohci.2/usb6/6-1 (usb)
+ACTION=add
+BUSNUM=006
+DEVNAME=/dev/bus/usb/006/003
+DEVNUM=003
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1
+DEVTYPE=usb_device
+MAJOR=189
+MINOR=642
+PRODUCT=5c6/9000/0
+SEQNUM=1730
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[134.607526] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1731
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[134.607744] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0
+SEQNUM=1732
+SUBSYSTEM=usb-serial
+
+KERNEL[134.608198] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0
+MAJOR=188
+MINOR=0
+SEQNUM=1733
+SUBSYSTEM=tty
+
+KERNEL[134.608467] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1734
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[134.608656] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1
+SEQNUM=1735
+SUBSYSTEM=usb-serial
+
+KERNEL[134.609005] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1
+MAJOR=188
+MINOR=1
+SEQNUM=1736
+SUBSYSTEM=tty
+
+KERNEL[134.609265] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1737
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[134.609427] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2
+SEQNUM=1738
+SUBSYSTEM=usb-serial
+
+KERNEL[134.609712] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2
+MAJOR=188
+MINOR=2
+SEQNUM=1739
+SUBSYSTEM=tty
+
+KERNEL[134.609968] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1740
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[134.610378] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3
+SEQNUM=1741
+SUBSYSTEM=usb-serial
+
+KERNEL[134.610754] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3
+MAJOR=188
+MINOR=3
+SEQNUM=1742
+SUBSYSTEM=tty
+
+KERNEL[134.611127] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1743
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[134.611301] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4
+SEQNUM=1744
+SUBSYSTEM=usb-serial
+
+KERNEL[134.611605] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+ACTION=add
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4
+MAJOR=188
+MINOR=4
+SEQNUM=1745
+SUBSYSTEM=tty
+
+KERNEL[134.612010] add      /devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.3 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev6.3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.3
+MAJOR=189
+MINOR=642
+SEQNUM=1746
+SUBSYSTEM=usb_device
+
+UDEV  [134.945353] add      /devices/platform/sunxi-ohci.2/usb6/6-1 (usb)
+ACTION=add
+BUSNUM=006
+DEVNAME=/dev/bus/usb/006/003
+DEVNUM=003
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1
+DEVTYPE=usb_device
+DRIVER=usb
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_USB_INTERFACES=:ffffff:
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=189
+MINOR=642
+PRODUCT=5c6/9000/0
+SEQNUM=1730
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=134619797
+
+UDEV  [134.945903] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0
+DEVTYPE=usb_interface
+DRIVER=option
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1731
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=134625193
+
+UDEV  [134.946322] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1
+DEVTYPE=usb_interface
+DRIVER=option
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1734
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=134627628
+
+UDEV  [134.946527] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0
+DRIVER=option1
+SEQNUM=1732
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=134629384
+
+UDEV  [134.946757] add      /devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.3 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev6.3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/usb_device/usbdev6.3
+MAJOR=189
+MINOR=642
+SEQNUM=1746
+SUBSYSTEM=usb_device
+USEC_INITIALIZED=134619797
+
+UDEV  [134.946909] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1
+DRIVER=option1
+SEQNUM=1735
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=134632683
+
+UDEV  [134.947252] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4
+DEVTYPE=usb_interface
+DRIVER=option
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1743
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=134636994
+
+UDEV  [134.947682] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3
+DEVTYPE=usb_interface
+DRIVER=option
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1740
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=134636829
+
+UDEV  [134.947878] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4
+DRIVER=option1
+SEQNUM=1744
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=134641651
+
+UDEV  [134.948412] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.1-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if01-port0
+DEVNAME=/dev/ttyUSB1
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.1/ttyUSB1/tty/ttyUSB1
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.1
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_1
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=01
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=1
+SEQNUM=1736
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=134642621
+
+UDEV  [135.280918] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2
+DEVTYPE=usb_interface
+DRIVER=option
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+INTERFACE=255/255/255
+MODALIAS=usb:v05C6p9000d0000dc00dsc00dp00icFFiscFFipFF
+PRODUCT=5c6/9000/0
+SEQNUM=1737
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=134642151
+
+UDEV  [135.281180] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2
+DRIVER=option1
+SEQNUM=1738
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=134645614
+
+UDEV  [135.281777] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if00-port0 /dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.0-port0
+DEVNAME=/dev/ttyUSB0
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.0/ttyUSB0/tty/ttyUSB0
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.0
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_0
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=00
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=0
+SEQNUM=1733
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=134646919
+
+UDEV  [135.282567] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.2-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if02-port0
+DEVNAME=/dev/ttyUSB2
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.2/ttyUSB2/tty/ttyUSB2
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.2
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_2
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=02
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=2
+SEQNUM=1739
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=134651794
+
+UDEV  [135.282934] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3 (usb-serial)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3
+DRIVER=option1
+SEQNUM=1741
+SUBSYSTEM=usb-serial
+USEC_INITIALIZED=134657915
+
+UDEV  [135.283492] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.4-port0 /dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if04-port0
+DEVNAME=/dev/ttyUSB4
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.4/ttyUSB4/tty/ttyUSB4
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.4
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_4
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=04
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=4
+SEQNUM=1745
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=134661727
+
+UDEV  [135.616622] add      /devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3 (tty)
+.ID_PORT=0
+ACTION=add
+DEVLINKS=/dev/serial/by-id/usb-SimTech__Incorporated_SimTech_SIM5320-if03-port0 /dev/serial/by-path/platform-sunxi-ohci.2-usb-0:1:1.3-port0
+DEVNAME=/dev/ttyUSB3
+DEVPATH=/devices/platform/sunxi-ohci.2/usb6/6-1/6-1:1.3/ttyUSB3/tty/ttyUSB3
+ID_BUS=usb
+ID_MODEL=SimTech_SIM5320
+ID_MODEL_ENC=SimTech\x20SIM5320
+ID_MODEL_FROM_DATABASE=SIMCom SIM5218 modem
+ID_MODEL_ID=9000
+ID_PATH=platform-sunxi-ohci.2-usb-0:1:1.3
+ID_PATH_TAG=platform-sunxi-ohci_2-usb-0_1_1_3
+ID_REVISION=0000
+ID_SERIAL=SimTech__Incorporated_SimTech_SIM5320
+ID_TYPE=generic
+ID_USB_DRIVER=option
+ID_USB_INTERFACES=:ffffff:
+ID_USB_INTERFACE_NUM=03
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm, Inc.
+ID_VENDOR_ID=05c6
+MAJOR=188
+MINOR=3
+SEQNUM=1742
+SUBSYSTEM=tty
+TAGS=:systemd:
+USEC_INITIALIZED=134669675
+
+KERNEL[144.484387] add      /devices/virtual/net/ppp0 (net)
+ACTION=add
+DEVPATH=/devices/virtual/net/ppp0
+IFINDEX=6
+INTERFACE=ppp0
+SEQNUM=1747
+SUBSYSTEM=net
+
+KERNEL[144.484582] add      /devices/virtual/net/ppp0/queues/rx-0 (queues)
+ACTION=add
+DEVPATH=/devices/virtual/net/ppp0/queues/rx-0
+SEQNUM=1748
+SUBSYSTEM=queues
+
+KERNEL[144.484700] add      /devices/virtual/net/ppp0/queues/tx-0 (queues)
+ACTION=add
+DEVPATH=/devices/virtual/net/ppp0/queues/tx-0
+SEQNUM=1749
+SUBSYSTEM=queues
+
+UDEV  [144.558833] add      /devices/virtual/net/ppp0 (net)
+ACTION=add
+DEVPATH=/devices/virtual/net/ppp0
+ID_NET_LINK_FILE=/lib/systemd/network/99-default.link
+IFINDEX=6
+INTERFACE=ppp0
+SEQNUM=1747
+SUBSYSTEM=net
+SYSTEMD_ALIAS=/sys/subsystem/net/devices/ppp0
+TAGS=:systemd:
+USEC_INITIALIZED=144501071
+
+UDEV  [144.566247] add      /devices/virtual/net/ppp0/queues/rx-0 (queues)
+ACTION=add
+DEVPATH=/devices/virtual/net/ppp0/queues/rx-0
+SEQNUM=1748
+SUBSYSTEM=queues
+USEC_INITIALIZED=144565998
+
+UDEV  [144.566762] add      /devices/virtual/net/ppp0/queues/tx-0 (queues)
+ACTION=add
+DEVPATH=/devices/virtual/net/ppp0/queues/tx-0
+SEQNUM=1749
+SUBSYSTEM=queues
+USEC_INITIALIZED=144566577
+
+

@@ -1,0 +1,211 @@
+root@orangepipcplus:~# udevadm monitor --env
+monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+KERNEL[106.507351] add      /devices/platform/sunxi-ehci.2/usb2/2-1 (usb)
+ACTION=add
+BUSNUM=002
+DEVNAME=/dev/bus/usb/002/002
+DEVNUM=002
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1
+DEVTYPE=usb_device
+MAJOR=189
+MINOR=129
+PRODUCT=1e0e/9001/318
+SEQNUM=1675
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[106.507885] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1676
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[106.508432] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1677
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[106.508848] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1678
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[106.509234] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1679
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[106.509598] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4
+DEVTYPE=usb_interface
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1680
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[106.509962] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5
+DEVTYPE=usb_interface
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1681
+SUBSYSTEM=usb
+TYPE=0/0/0
+
+KERNEL[106.511190] add      /devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.2 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev2.2
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.2
+MAJOR=189
+MINOR=129
+SEQNUM=1682
+SUBSYSTEM=usb_device
+
+UDEV  [106.520549] add      /devices/platform/sunxi-ehci.2/usb2/2-1 (usb)
+ACTION=add
+BUSNUM=002
+DEVNAME=/dev/bus/usb/002/002
+DEVNUM=002
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1
+DEVTYPE=usb_device
+DRIVER=usb
+ID_BUS=usb
+ID_MODEL=SimTech__Incorporated
+ID_MODEL_ENC=SimTech\x2c\x20Incorporated
+ID_MODEL_ID=9001
+ID_REVISION=0318
+ID_SERIAL=SimTech__Incorporated_SimTech__Incorporated_0123456789ABCDEF
+ID_SERIAL_SHORT=0123456789ABCDEF
+ID_USB_INTERFACES=:ffffff:ff0000:
+ID_VENDOR=SimTech__Incorporated
+ID_VENDOR_ENC=SimTech\x2c\x20Incorporated
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+ID_VENDOR_ID=1e0e
+MAJOR=189
+MINOR=129
+PRODUCT=1e0e/9001/318
+SEQNUM=1675
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=106519409
+
+UDEV  [106.525515] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.0
+DEVTYPE=usb_interface
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1676
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=106524428
+
+UDEV  [106.527656] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.1
+DEVTYPE=usb_interface
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1677
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=106526430
+
+UDEV  [106.531648] add      /devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.2 (usb_device)
+ACTION=add
+DEVNAME=/dev/usbdev2.2
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/usb_device/usbdev2.2
+MAJOR=189
+MINOR=129
+SEQNUM=1682
+SUBSYSTEM=usb_device
+USEC_INITIALIZED=106519409
+
+UDEV  [106.533567] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.4
+DEVTYPE=usb_interface
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1680
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=106532379
+
+UDEV  [106.865555] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.2
+DEVTYPE=usb_interface
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1678
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=106532379
+
+UDEV  [106.865883] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.3
+DEVTYPE=usb_interface
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/0/0
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFisc00ip00
+PRODUCT=1e0e/9001/318
+SEQNUM=1679
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=106536094
+
+UDEV  [106.866174] add      /devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5 (usb)
+ACTION=add
+DEVPATH=/devices/platform/sunxi-ehci.2/usb2/2-1/2-1:1.5
+DEVTYPE=usb_interface
+ID_VENDOR_FROM_DATABASE=Qualcomm / Option
+INTERFACE=255/255/255
+MODALIAS=usb:v1E0Ep9001d0318dc00dsc00dp00icFFiscFFipFF
+PRODUCT=1e0e/9001/318
+SEQNUM=1681
+SUBSYSTEM=usb
+TYPE=0/0/0
+USEC_INITIALIZED=106537726
+
+
